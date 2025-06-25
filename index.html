@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ajmal Basha | Full Stack Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="#home" class="logo">Ajmal Basha</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="mobile-menu-button" aria-label="Toggle Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="mobile-menu hidden">
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <img src="images/Ajmal.jpg" alt="Ajmal Basha" class="hero-img" />
+      <div class="hero-text">
+        <p class="hero-tagline">Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+        <h1 class="hero-title">Hi, I'm <span>Ajmal Basha</span></h1>
+        <p class="hero-description">
+          A results-driven <strong>Full Stack Developer</strong> passionate about building responsive, scalable, and user-focused web applications using React, Node.js, and modern CSS.
+        </p>
+        <a href="#projects" class="btn-primary">Explore My Work</a>
+        <p class="hero-subtext">📬 Open to internships, freelance projects, and collaborations.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-card">
+      <h2 class="section-title">About Me</h2>
+      <p><strong>Ajmal Basha</strong>, a passionate full stack developer pursuing a B.E. in Computer Science Engineering at Panimalar Engineering College.</p>
+      <p>I create performant, maintainable, and user-friendly web apps with React, Node.js, MongoDB, and Tailwind CSS. I enjoy blending logic, design, and functionality into valuable digital experiences.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-card">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Tailwind CSS</div>
+        <div class="skill-card">React</div>
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">Git & GitHub</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-card">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Dengue Risk Prediction System</h3>
+          <p>Predicts dengue outbreak zones in Chennai using machine learning, geospatial mapping, and real-time visualizations.</p>
+          <div class="tags" aria-label="Project tags">
+            <span>Python</span><span>Flask</span><span>XGBoost</span>
+          </div>
+          <div class="links">
+            <a href="#">Live Demo</a><a href="#">GitHub</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Quick Ride - Cab Booking App</h3>
+          <p>A full-stack ride booking platform with live tracking, built using Spring Boot microservices and a modern React frontend.</p>
+          <div class="tags" aria-label="Project tags">
+            <span>Java</span><span>Spring Boot</span><span>React</span>
+          </div>
+          <div class="links">
+            <a href="#">Live Demo</a><a href="#">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-card contact-section">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">Have an idea or looking to collaborate? I’d love to hear from you.</p>
+      <div class="contact-buttons">
+        <a href="mailto:ajmal.basha.dev@gmail.com" class="btn-primary btn-green">Email</a>
+        <a href="https://www.linkedin.com/in/ajmal-basha-developer/" target="_blank" class="btn-primary btn-blue">LinkedIn</a>
+        <a href="https://github.com/ajmal-basha-developer/" target="_blank" class="btn-primary btn-dark">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ajmal Basha. All rights reserved.</p>
+    <p>Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
