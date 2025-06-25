@@ -47,7 +47,7 @@ Watch the demo video showcasing the project functionality:
 
 Feel free to reach out for internships, freelance work, or collaborations!  
 
-- Email: ajmal.basha.dev@gmail.com  
+- Email: ajmal13basha@gmail.com  
 - LinkedIn: [Ajmal Basha](https://www.linkedin.com/in/ajmal-basha-developer/)  
 - GitHub: [ajmal-basha-developer](https://github.com/ajmal-basha-developer)
 
